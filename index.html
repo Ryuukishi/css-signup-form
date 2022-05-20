@@ -10,11 +10,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="landing">
     <div class="landing-left">
         <img class="hero" src="https://raw.githubusercontent.com/Ryuukishi/css-signup-form/main/img/hero.jpg" alt="hero">
-        <div class="landing-right">
-            <div class="welcome">ようこそ</div>
+    </div>
+    <div class="landing-right">
+        <div class="welcome">ようこそ</div>
+        <div class="account">
+            <h1>Create a new account.</h1>
+            <h2>Already have an account? <a href="#">Sign in</a></h2>
+        </div>
+        <div class="form">
+            <form action="submit">
+                <input placeholder="Email" type="email" name="email" id="email">
+                <input placeholder="Password" type="password" name="password" id="password">
+                <input placeholder="Confirm Password" type="password" name="confirm-password" id="confirm-password">
+                <input class="login" type="button" value="ログイン">
+            </form>                
         </div>
     </div>
+</div>
 </body>
 </html>
