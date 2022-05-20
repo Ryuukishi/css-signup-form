@@ -1,8 +1,11 @@
 * {
     margin: 0px;
     background-color: lavenderblush;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Zen Loop', cursive;
 }
-.landing {
+.landing-left,
+.landing-right {
     display: flex;
 }
 .hero {
@@ -10,12 +13,15 @@
     width: 40%;
     display: block;
 }
+.landing-right {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
 .welcome {
     color: #F17793;
     font-size: 72px;
     font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
     text-shadow: 5px 5px #6F679D;
 }
