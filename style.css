@@ -52,24 +52,19 @@ a:hover {
 }
 
 input {
-    border-color: #F17793;
-    border-style: outset;
+    border: 2px solid #F17793;
     width: 100%;
     padding: 1rem;
     margin-top: 1rem;
     box-sizing: border-box;
     border-radius: 5px;
-    color: black;
+    color: rgb(79, 79, 79);
     font-size: larger;
     font-weight: 900;
+    outline: none;
 }
 
 input:focus {
-    outline: none;
-}
-
-input[placeholder]:focus {
-    outline: none;
     box-shadow: 5px 5px 5px #6F679D;
 }
 
