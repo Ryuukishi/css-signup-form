@@ -32,7 +32,6 @@
     text-shadow: 5px 5px #6F679D;
 }
 .account {
-    /* font-size: 3rem; */
     text-align: center;
     margin-top: 2rem;
 }
@@ -48,15 +47,19 @@ a:hover {
 .form {
     margin-top: 2rem;
     padding-bottom: 2rem;
-    width: 90%;
+}
+
+form {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
 }
 
 input {
     border: 2px solid #F17793;
-    width: 100%;
+    width: 65%;
     padding: 1rem;
     margin-top: 1rem;
-    /* box-sizing: border-box; */
     border-radius: 5px;
     color: rgb(79, 79, 79);
     font-size: larger;
